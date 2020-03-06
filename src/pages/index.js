@@ -25,14 +25,19 @@ export default class Index extends Component {
       <Layout>
         <Helmet title={`${config.siteTitle} – Penulis Biasa`} />
         <SEO />
-<div class="container">
-<div class="lead">
-<div class="elevator">
-<h1>Halo, Saya Risky Muhamad</h1>
-<p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-</div>
-</div>
-</div>
+     <div class="container">
+        <div class="lead">
+        <div class="elevator">
+         <h1>Halo, Saya Risky Muhamad</h1>
+
+        <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
+
+        <Link to="/me" className="Selengkapnya">
+          Selengkapnya Tentang Risky 
+        </Link>
+        </div>
+        </div>
+        </div>
 
         <div className="container front-page">
           <section className="section">
