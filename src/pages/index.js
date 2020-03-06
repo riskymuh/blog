@@ -31,7 +31,7 @@ export default class Index extends Component {
               <h1>{`Hey, I'm Tania`}</h1>
               <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
             </div>
-            <div class="lead">
+            <div className="lead">
           </div>
         </div>
 
