@@ -25,13 +25,16 @@ export default class Index extends Component {
       <Layout>
         <Helmet title={`${config.siteTitle} – Penulis Amatiran`} />
         <SEO />
-        <div class="container">
-        <div class="elevator">
-        <h3>Halo, Saya Risky Muhamad</h3>
-        <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-        <div class="lead">
+         <div className="container">
+          <div className="lead">
+            <div className="elevator">
+                <h3>Halo, Saya Risky Muhamad</h3>
+                <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
+            <a class="view-all" href="/me">Selengkapnya Tentang Risky</a>
+          <div class="lead">
         </div>
         </div>
+
         <div className="container front-page">
           <section className="section">
             <h2>
@@ -51,6 +54,21 @@ export default class Index extends Component {
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
+          </section>
+
+          <section className="section">
+            <h2>Open Source Projects</h2>
+            <ProjectListing projects={projects} />
+          </section>
+
+          <section className="section">
+            <h2>Interviews</h2>
+            <SimpleListing simple data={podcasts} />
+          </section>
+
+          <section className="section">
+            <h2>Talks</h2>
+            <SimpleListing simple data={speaking} />
           </section>
 
           <section className="section">
