@@ -23,22 +23,21 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Penulis Amatiran`} />
+        <Helmet title={`${config.siteTitle} – Full Stack Software Developer`} />
         <SEO />
-         <div className="container">
+        <div className="container">
           <div className="lead">
             <div className="elevator">
-                <h3>Halo, Saya Risky Muhamad</h3>
-                <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-            <a class="view-all" href="/me">Selengkapnya Tentang Risky</a>
-          <div class="lead">
-        </div>
+              <h1>Halo, Risky Muhamad</h1><p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p><a class="Selengkapnya" href="/me">Selengkapnya Risky Muhamad</a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="container front-page">
           <section className="section">
             <h2>
-              Tulisan Terbaru
+              Latest Articles
               <Link to="/blog" className="view-all">
                 View all
               </Link>
@@ -48,27 +47,12 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>
-              Tulisan Populer
+              Most Popular
               <Link to="/categories/popular" className="view-all">
                 View all
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
-
-          <section className="section">
-            <h2>Open Source Projects</h2>
-            <ProjectListing projects={projects} />
-          </section>
-
-          <section className="section">
-            <h2>Interviews</h2>
-            <SimpleListing simple data={podcasts} />
-          </section>
-
-          <section className="section">
-            <h2>Talks</h2>
-            <SimpleListing simple data={speaking} />
           </section>
 
           <section className="section">
