@@ -36,7 +36,9 @@ export default class Index extends Component {
 
         <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
 
-        <Link to="/me" className="Selengkapnya">
+        <a href="/me" target="_blank" rel="noopener noreferrer">
+            Selengkapnya tentang Risky 
+          </a>
           Selengkapnya Tentang Risky 
         </Link>
         </div>
