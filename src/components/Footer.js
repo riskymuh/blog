@@ -33,25 +33,6 @@ export default class Footer extends Component {
               alt="facebook"
             />
           </a>
-        
-          <a href="https://www.netlify.com/" title="Hosted by Netlify">
-            <img
-              src={netlify}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer-img"
-              alt="GitHub"
-            />
-          </a>
-          <a href="https://www.gatsbyjs.org/" title="Built with Gatsby">
-            <img
-              src={gatsby}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer-img"
-              alt="GitHub"
-            />
-          </a>
         </div>
       </footer>
     )
