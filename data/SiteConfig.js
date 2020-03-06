@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: 'Tania Rascia',
+  siteTitle: 'Risky Muhamad',
   siteTitleShort: 'Tania Rascia',
   siteTitleAlt: 'Tania Rascia',
   siteLogo: '/logos/logo-1024.png',
@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Tania Rascia is a full stack software developer specializing in modern JavaScript.',
+    'Risky Muhamad is a full stack software developer specializing in modern JavaScript.',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-42068444-1',
   postDefaultCategoryID: 'Tech',
