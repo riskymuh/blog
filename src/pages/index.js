@@ -23,9 +23,9 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Penulis Biasa`} />
+        <Helmet title={`${config.siteTitle} – Full Stack Software Developer`} />
         <SEO />
- <div className="container">
+        <div className="container">
           <div className="lead">
             <div className="elevator">
               <h1>{`Hey, I'm Tania`}</h1>
@@ -48,45 +48,24 @@ export default class Index extends Component {
               </div>
             </div>
             <div className="newsletter-section">
+              <img src={tania} className="newsletter-avatar" alt="Tania" />
+              <div>
+                <h3>Email Newsletter</h3>
+                <p>
+                  I write tutorials. Get an update when something new comes out by signing up below!
+                </p>
+                <a className="button" href="https://taniarascia.substack.com">
+                  Subscribe
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-
-
-
-
-
-
-//<div class="container">
-//<div class="lead">
-//<div class="elevator">
-//<h1>Halo, Saya Risky Muhamad</h1>
-//<p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-//<a class="view-all" href="/me">Selengkapnya tentang Risky Muhamad</a>
-//</div>
-//</div>
-//</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div className="container front-page">
           <section className="section">
             <h2>
-              Tulisan Terakhir
+              Latest Articles
               <Link to="/blog" className="view-all">
                 View all
               </Link>
@@ -96,13 +75,29 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>
-              Tulisan Popuer
+              Most Popular
               <Link to="/categories/popular" className="view-all">
                 View all
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
+
+          <section className="section">
+            <h2>Open Source Projects</h2>
+            <ProjectListing projects={projects} />
+          </section>
+
+          <section className="section">
+            <h2>Interviews</h2>
+            <SimpleListing simple data={podcasts} />
+          </section>
+
+          <section className="section">
+            <h2>Talks</h2>
+            <SimpleListing simple data={speaking} />
+          </section>
+
           <section className="section">
             <h2>{`Other People's Opinions`}</h2>
             <div className="quotations">
