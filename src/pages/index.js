@@ -29,14 +29,7 @@ export default class Index extends Component {
           <div className="lead">
             <div className="elevator">
               <h1>{`Hey, I'm Tania`}</h1>
-              <p>
-                I'm a full stack software developer creating{' '}
-                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
-                  open source
-                </a>{' '}
-                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
-                development.
-              </p>
+              <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
               <div className="social-buttons">
                 <GitHubButton
                   href="https://github.com/taniarascia"
@@ -47,7 +40,6 @@ export default class Index extends Component {
                 </GitHubButton>
               </div>
             </div>
-          <div class="lead">
           </div>
         </div>
 
