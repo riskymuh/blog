@@ -1,9 +1,9 @@
 const config = {
   siteTitle: 'Risky Muhamad',
-  siteTitleShort: 'Tania Rascia',
-  siteTitleAlt: 'Tania Rascia',
+  siteTitleShort: 'Risky Muhamad',
+  siteTitleAlt: 'Risky Muhamad',
   siteLogo: '/logos/logo-1024.png',
-  siteUrl: 'https://www.taniarascia.com',
+  siteUrl: 'https://riskym.netlify.com/',
   repo: 'https://github.com/taniarascia/taniarascia.com',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
