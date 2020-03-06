@@ -30,15 +30,6 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Tania`}</h1>
               <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-              <div className="social-buttons">
-                <GitHubButton
-                  href="https://github.com/taniarascia"
-                  data-size="large"
-                  data-show-count="true"
-                >
-                  taniarascia
-                </GitHubButton>
-              </div>
             </div>
           </div>
         </div>
