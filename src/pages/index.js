@@ -47,6 +47,7 @@ export default class Index extends Component {
                 </GitHubButton>
               </div>
             </div>
+          <div class="lead">
           </div>
         </div>
 
