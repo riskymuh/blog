@@ -29,7 +29,7 @@ export default class Index extends Component {
 
            <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
 
-             <Link to="/me" className="view-all">
+             <Link to="/me" className="Selengkapnya">
                 Selengkapnya Risky Muhamad
               </Link>
          </div>
