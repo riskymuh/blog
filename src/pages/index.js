@@ -28,7 +28,23 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>Halo, Risky Muhamad</h1><p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p><a class="Selengkapnya" href="/me">Selengkapnya Risky Muhamad</a>
+              <h1>{`Hey, I'm Tania`}</h1>
+              <p>
+                I'm a full stack software developer creating{' '}
+                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
+                  open source
+                </a>{' '}
+                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
+                development.
+              </p>
+              <div className="social-buttons">
+                <GitHubButton
+                  href="https://github.com/taniarascia"
+                  data-size="large"
+                  data-show-count="true"
+                >
+                  taniarascia
+                </GitHubButton>
               </div>
             </div>
           </div>
@@ -53,6 +69,21 @@ export default class Index extends Component {
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
+          </section>
+
+          <section className="section">
+            <h2>Open Source Projects</h2>
+            <ProjectListing projects={projects} />
+          </section>
+
+          <section className="section">
+            <h2>Interviews</h2>
+            <SimpleListing simple data={podcasts} />
+          </section>
+
+          <section className="section">
+            <h2>Talks</h2>
+            <SimpleListing simple data={speaking} />
           </section>
 
           <section className="section">
