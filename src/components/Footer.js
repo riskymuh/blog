@@ -11,9 +11,9 @@ export default class Footer extends Component {
     return (
       <footer className="footer container">
         <div>
-         <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
-           Built with Gatsby.js - Theme by Tania
-          </a>      
+           Theme by Tania 
+        </div>
+        <div>
         <a href="https://www.instagram.com/riskymuhamad02" title="Folow Instagram saya">
             <img
               src={instagram}
