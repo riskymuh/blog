@@ -23,22 +23,24 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Full Stack Software Developer`} />
+        <Helmet title={`${config.siteTitle} – Penulis Biasa`} />
         <SEO />
-        <div className="container">
-          <div className="lead">
-            <div className="elevator">
-              <h1>{`Hey, I'm Tania`}</h1>
-              <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-            </div>
-            <div className="lead">
-          </div>
-        </div>
+       <div class="container">
+     <div class="elevator">
+      <h1>Halo, Risky Muhamad</h1>
+
+           <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
+
+           <a class="selengkapnya" href="/about">Selengkapnya Risky Muhamad</a>
+         </div>
+        <div class="lead">
+      </div>
+    </div>
 
         <div className="container front-page">
           <section className="section">
             <h2>
-              Latest Articles
+              Tulisan Terakhir
               <Link to="/blog" className="view-all">
                 View all
               </Link>
@@ -48,29 +50,13 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>
-              Most Popular
+              Tulisan Popuer
               <Link to="/categories/popular" className="view-all">
                 View all
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
-
-          <section className="section">
-            <h2>Open Source Projects</h2>
-            <ProjectListing projects={projects} />
-          </section>
-
-          <section className="section">
-            <h2>Interviews</h2>
-            <SimpleListing simple data={podcasts} />
-          </section>
-
-          <section className="section">
-            <h2>Talks</h2>
-            <SimpleListing simple data={speaking} />
-          </section>
-
           <section className="section">
             <h2>{`Other People's Opinions`}</h2>
             <div className="quotations">
