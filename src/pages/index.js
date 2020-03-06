@@ -25,7 +25,11 @@ export default class Index extends Component {
       <Layout>
         <Helmet title={`${config.siteTitle} – Penulis Biasa`} />
         <SEO />
+<<<<<<< HEAD
         <div class="container">
+=======
+     <div class="container">
+>>>>>>> 80a60357c6ca1a8e691aab2220ccfabe308a619c
         <div class="lead">
         <div class="elevator">
          <h1>Halo, Saya Risky Muhamad</h1>
