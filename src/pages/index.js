@@ -25,15 +25,63 @@ export default class Index extends Component {
       <Layout>
         <Helmet title={`${config.siteTitle} – Penulis Biasa`} />
         <SEO />
-<div class="container">
-<div class="lead">
-<div class="elevator">
-<h1>Halo, Saya Risky Muhamad</h1><br>
-<p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-<a class="view-all" href="/me">Selengkapnya tentang Risky Muhamad</a>
-</div>
-</div>
-</div>
+ <div className="container">
+          <div className="lead">
+            <div className="elevator">
+              <h1>{`Hey, I'm Tania`}</h1>
+              <p>
+                I'm a full stack software developer creating{' '}
+                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
+                  open source
+                </a>{' '}
+                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
+                development.
+              </p>
+              <div className="social-buttons">
+                <GitHubButton
+                  href="https://github.com/taniarascia"
+                  data-size="large"
+                  data-show-count="true"
+                >
+                  taniarascia
+                </GitHubButton>
+              </div>
+            </div>
+            <div className="newsletter-section">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+//<div class="container">
+//<div class="lead">
+//<div class="elevator">
+//<h1>Halo, Saya Risky Muhamad</h1>
+//<p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
+//<a class="view-all" href="/me">Selengkapnya tentang Risky Muhamad</a>
+//</div>
+//</div>
+//</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div className="container front-page">
           <section className="section">
