@@ -29,7 +29,6 @@ export default class Index extends Component {
         <div class="elevator">
         <h3>Halo, Saya Risky Muhamad</h3>
         <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
-        <a class="view-all" href="/me">Selengkapnya Tentang Risky</a>
         <div class="lead">
         </div>
         </div>
