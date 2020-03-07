@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class UserInfo extends Component {
   render() {
     return (
-      <aside className="note">
+   
         <div className="container note-container">
         
             <div>
@@ -14,7 +14,7 @@ export default class UserInfo extends Component {
           
           </div>
         </div>
-      </aside>
+ 
     )
   }
 }
