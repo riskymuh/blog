@@ -4,33 +4,27 @@ slug: me
 template: page
 ---
 
-I’m Tania Risky Muhamad, a full stack software developer, technical writer, and former chef.
+Saya Adalah Risky Muhamad
 
-I aim to create a beautiful corner of the web free of ads, sponsored posts, newsletter pop-ups, affiliate links, and the rest of the annoying noise we're so accustomed to seeing on the internet these days.
+seorang anak muda dari Generasi Z yang jarang berinterkasi di dunia nyata.
+
+situs ini saya buat ketika sedang belajar dalam membuat website statis, dan tertarik untuk Menulis Artikel. 
 
 ## Music
 
-Sometimes I sing and play accordion/piano. I like to [record music](https://soundcloud.com/ivoryandivory) in my spare time. Here are some.
+Saya biasanya mendengarkan musik dengan [Spotify](http://spotify.com/).
 
-- [I’d Like to Walk Around In Your Mind](https://soundcloud.com/ivoryandivory/id-like-to-walk-around-in-your-mind)
-- [Such Great Heights](https://soundcloud.com/john-termaat/such-great-heights) (duet)
-- [Night Nurse](https://soundcloud.com/john-termaat/night-nurse) (duet)
-- [El Pasadiscos](https://soundcloud.com/ivoryandivory/el-pasadiscos)
-- [Mad World](https://soundcloud.com/ivoryandivory/mad-world)
-- [You And I](https://soundcloud.com/ivoryandivory/you-and-i)
-- [Just Like Heaven](https://soundcloud.com/ivoryandivory/just-like-heaven)
-- [The Winner Takes It All](https://soundcloud.com/ivoryandivory/the-winner-takes-it-all)
-- [Wicked Game](https://soundcloud.com/ivoryandivory/wicked-game)
-- [Truce](https://soundcloud.com/ivoryandivory/truce)
-- [Something Wild](https://soundcloud.com/ivoryandivory/something-wild)
-- [Bridge Over Troubled Water](https://soundcloud.com/ivoryandivory/bridge-over-troubled-water)
-- [Rainy Monday](https://soundcloud.com/ivoryandivory/rainy-monday)
-- [Saloon](https://soundcloud.com/ivoryandivory/saloon)
+- [In The End](https://open.spotify.com/track/5rAUZy2eDdegBxUVYxePK2?si=gCZq6lNwSzKVtREpvE7wVA)
+- [when the party's over](https://open.spotify.com/track/43zdsphuZLzwA9k4DJhU0I?si=76sUcMXwS06-7TE5q8Tn5A)
+- [Rehat](https://open.spotify.com/track/1BzMyhmPzYnGWK6RBF5TTj?si=T_6cDD5_THasjII7wobbcg)
+- [Terlalu Lama Sendiri](https://open.spotify.com/track/1oKJJOjLULChjf4BM3qEJO?si=9Ke4r2f4STaIOumZzp0d6g)
+- [Allahumma Labbaik](https://open.spotify.com/track/2bCGtnVjqgBhI3rhIKt0ZZ?si=DjxJsnrPQ6aIyk4B340FjQ)
+- [I'tirof](https://open.spotify.com/track/4Iob5Ak5VKsNj98kGaBiN8?si=wBCRGCqUQ8i6_KY5NgAHbA)
 
 ## Portfolio
 
-A few sites I designed.
+UI/UX.
 
-- [Cafe Ba-Ba-Reeba!](https://www.cafebabareeba.com/) - 2017
+- [Patria Muda](https://play.google.com/store/apps/details?id=com.patriot.analitik) - 2019
 
 

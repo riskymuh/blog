@@ -8,7 +8,7 @@ export default class UserInfo extends Component {
         
             <div>
               <p>
-                Terima kasih telah membaca dan berkunjung ke situs ini
+                Terima kasih telah membaca di situs ini
               </p>
           
           </div>

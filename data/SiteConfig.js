@@ -4,7 +4,7 @@ const config = {
   siteTitleAlt: 'Risky muhamad',
   siteLogo: '/logos/logo-1024.png',
   siteUrl: 'https://riskym.netlify.com/',
-  repo: 'https://github.com/taniarascia/taniarascia.com',
+  repo: 'https://github.com/riskymuhamad/blog',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',

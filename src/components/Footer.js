@@ -5,6 +5,8 @@ import gatsby from '../../content/thumbnails/gatsby.png'
 import github from '../../content/images/github.png'
 import facebook from '../../content/thumbnails/facebook.png'
 import instagram from '../../content/thumbnails/instagram.png'
+import instagram from '../../content/thumbnails/spotify.png'
+import instagram from '../../content/thumbnails/google-plus.png'
 
 export default class Footer extends Component {
   render() {
@@ -33,6 +35,24 @@ export default class Footer extends Component {
               alt="facebook"
             />
           </a>
+                <a href="https://open.spotify.com/user/doklhbb6k0dsgbkbcxj24m7p3?si=V60fR4MdT3-hyxrIc2BRJw" title="Ikuti Spotify">
+            <img
+              src={spotify}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-img"
+              alt="spotify"
+            />
+          </a>  
+                <a href="mailto:riskymuhamad11@gmail.com" title="Gmail">
+            <img
+              src={gmail}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-img"
+              alt="gmail"
+            />
+          </a>    
         </div>
       </footer>
     )
