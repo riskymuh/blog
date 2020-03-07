@@ -6,9 +6,6 @@ export default class UserInfo extends Component {
       <aside className="note">
         <div className="container note-container">
           <div className="flex-author">
-            <div className="flex-avatar">
-              <img className="avatar" src={tania} alt="Tania Rascia" />
-            </div>
             <div>
               <p>
                 I’m Risky Muhamad. I document everything I learn and help thousands of people start
