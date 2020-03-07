@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'Syekh Abdul Qadiri',
+    name: 'Syekh Abdul',
     quote: `Aku lebih menghargai orang yang beradab dari pada berilmu. Kalau hanya berilmu, iblis pun lebih tinggi ilmunya dari pada manusia.`,
   },
   {
