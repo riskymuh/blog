@@ -5,8 +5,8 @@ import gatsby from '../../content/thumbnails/gatsby.png'
 import github from '../../content/images/github.png'
 import facebook from '../../content/thumbnails/facebook.png'
 import instagram from '../../content/thumbnails/instagram.png'
-import instagram from '../../content/thumbnails/spotify.png'
-import instagram from '../../content/thumbnails/google-plus.png'
+import spotify from '../../content/thumbnails/spotify.png'
+import google from '../../content/thumbnails/google-plus.png'
 
 export default class Footer extends Component {
   render() {
@@ -46,11 +46,11 @@ export default class Footer extends Component {
           </a>  
                 <a href="mailto:riskymuhamad11@gmail.com" title="Gmail">
             <img
-              src={gmail}
+              src={google}
               target="_blank"
               rel="noopener noreferrer"
               className="footer-img"
-              alt="gmail"
+              alt="google"
             />
           </a>    
         </div>
