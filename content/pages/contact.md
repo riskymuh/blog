@@ -4,8 +4,8 @@ slug: contact
 template: page
 ---
 
-Halo, mari Sharing dan belajar bareng dengan saya, dan jika tertarik menulis artikel disitus ini.
-Bisa mengubungi saya di link dibawah ini
+Halo, mari Sharing atau belajar bersama dengan saya, dan jika tertarik menulis artikel disitus ini.
+Bisa mengubungi saya lewat link di dibawah ini :
 
 ### link
 

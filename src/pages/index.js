@@ -49,7 +49,7 @@ export default class Index extends Component {
 
           <section className="section">
             <h2>
-              Tulisan Popuer
+              Tulisan Populer
               <Link to="/categories/popular" className="view-all">
                 View all
               </Link>
@@ -57,7 +57,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={popularPostEdges} />
           </section>
           <section className="section">
-            <h2>{`Catatan Motivasi`}</h2>
+            <h2>{`Quote Motivasi`}</h2>
             <div className="quotations">
               {quotes.map(quote => (
                 <blockquote className="quotation" key={quote.name}>

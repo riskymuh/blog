@@ -6,9 +6,9 @@ template: page
 
 Saya Adalah Risky Muhamad
 
-seorang anak muda dari Generasi Z yang jarang berinterkasi di dunia nyata.
+seorang anak muda dari Generasi Z yang jarang berinteraksi di dunia nyata.
 
-situs ini saya buat ketika sedang belajar dalam membuat website statis, dan tertarik untuk Menulis Artikel. 
+situs ini saya buat ketika sedang belajar dalam membuat website statis, dan tertarik untuk Menulis Artikel untuk menyampaikan opini dan membagikan informasi. 
 
 ## Music
 

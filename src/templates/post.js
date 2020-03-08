@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
-import UserInfo from '../components/UserInfo'
+import Comments from '../components/Comments'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
@@ -58,23 +58,6 @@ export default class PostTemplate extends Component {
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <time className="date">{date}</time>/
-                <a
-                  className="twitter-link"
-                  href={twitterShare}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Share
-                </a>
-                /
-                <a
-                  className="github-link"
-                  href={githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Edit ✏️
-                </a>
               </div>
               <PostTags tags={post.tags} />
             </div>
@@ -82,7 +65,7 @@ export default class PostTemplate extends Component {
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <UserInfo config={config} />
+        <Comments config={config} />
       </Layout>
     )
   }
