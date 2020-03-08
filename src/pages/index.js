@@ -29,7 +29,7 @@ export default class Index extends Component {
      <div class="elevator">
       <h1>Halo, Saya Risky Muhamad</h1>
 
-           <p>Situs ini berisi tulisan, opini dan juga merupakan dokumentasi untuk saya pribadi ketika sedang belajar atau membagikan sesuatu. Saya sengaja membebaskan situs ini dari iklan karena saya sendiri sering merasa terganggu dengan adanya iklan. Enjoy your reading! 😁</p>
+           <p>Situs ini berisi tulisan, ketika saya belajar berbagai macam hal. Lalu membagikannya agar dapat bermanfaat ke banyak orang, dan juga merupakan dokumentasi saya pribadi untuk dimasa yang akan datang. situs ini bebas dari iklan karena saya sendiri sering terganggu dengan adanya iklan. Selamat membaca! 😁 </p>
 
          </div>
         <div class="lead">
