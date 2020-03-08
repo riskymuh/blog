@@ -59,9 +59,14 @@ export default class PostTemplate extends Component {
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <time className="date">{date}</time> | Ditulis oleh :
-                <Link to="/me" className="twitter-link">
-                Risky Muhamad
-              </Link>
+                <a
+                  className="twitter-link"
+                  href="https://riskym.netlify.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Risky Muhamad
+                </a>
               </div>
               <PostTags tags={post.tags} />
             </div>
