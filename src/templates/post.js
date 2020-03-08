@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../layout'
+import UserInfo from '../components/UserInfo'
 import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
@@ -51,39 +52,29 @@ export default class PostTemplate extends Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="single container">
-          <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
+
+  <header className={`single-header ${!thumbnail ? 'no-thumbnail' : ''}`}>
             {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <time className="date">{date}</time>/
+                <time className="date">{date}</time> | Ditulis oleh :
+                <a
+                  className="twitter-link"
+                  href="https://riskym.netlify.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Risky Muhamad
+                </a>
               </div>
               <PostTags tags={post.tags} />
             </div>
-          </header>
+</header>
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-       v<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://riskym.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <UserInfo config={config} />
       </Layout>
     )
   }
