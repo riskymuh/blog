@@ -49,7 +49,7 @@ export default class PostTemplate extends Component {
         <article className="single container">
 
   <header className={`single-header`}>
-            <div className="flex">
+    
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <time className="date">{date}</time> | Ditulis oleh :
@@ -63,7 +63,7 @@ export default class PostTemplate extends Component {
                 </a>
               </div>
               <PostTags tags={post.tags} />
-            </div>
+
 </header>
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
