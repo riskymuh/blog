@@ -34,6 +34,11 @@ export default class PostTemplate extends Component {
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID
     }
+
+    if (post.thumbnail) {
+      thumbnail = post.thumbnail.childImageSharp.fixed
+    }
+
     const date = formatDate(post.date)
     const githubLink = editOnGithub(post)
     const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(post.title)}&url=${
@@ -48,7 +53,7 @@ export default class PostTemplate extends Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="single container">
 
-  <header className={`single-header`}>
+  <header>
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
@@ -62,9 +67,7 @@ export default class PostTemplate extends Component {
                   Risky Muhamad
                 </a>
               </div>
-              <div class="tag-container">
               <PostTags tags={post.tags} />
-              </div>
             </div>
 </header>
 
@@ -86,6 +89,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         thumbnail {
+          childImageSharp {
+            fixed(width: 150, height: 150) {
+              ...GatsbyImageSharpFixed
+            }
           }
         }
         slug
