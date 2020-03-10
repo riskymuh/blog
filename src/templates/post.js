@@ -53,9 +53,10 @@ export default class PostTemplate extends Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="single container">
 
-  <header>
+  <header> 
             <div className="flex">
               <h1>{post.title}</h1>
+            </div>
               <div className="post-meta">
                 <time className="date">{date}</time> | Ditulis oleh :
                 <a
@@ -67,6 +68,7 @@ export default class PostTemplate extends Component {
                   Risky Muhamad
                 </a>
               </div>
+              <div>
               <PostTags tags={post.tags} />
             </div>
 </header>
