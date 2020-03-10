@@ -49,13 +49,6 @@ export default class PostTemplate extends Component {
       <Layout>
         <Helmet>
           <title>{`${post.title} – ${config.siteTitle}`}</title>
-            <MetaTags
-            title={title}
-            description={excerpt}
-            thumbnail={url + thumbnail}
-            url={url}
-            pathname={props.location.pathname}
-             />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="single container">
