@@ -815,9 +815,12 @@ justify-content: space-between;
   }
 }
 
-.avatar {
-  max-width: 100px;
-  border-radius: 50%;
+.flex-author {
+    order: 2;
+}
+ .avatar {
+    max-width: 200px;
+    border-radius: 50%;
 }
 
 @include small-breakpoint {
