@@ -7,7 +7,11 @@ export default class UserInfo extends Component {
       <aside className="note">
         <div className="container note-container">
           <div className="flex-author">
-       
+              
+              <div className="flex-avatar">
+           <center>
+              <img className="avatar" src={risky} alt="Risky Muhamad" />
+          </center>
             <div>
               <p>
                 I’m Risky Muhamad. I document everything I learn and help thousands of people start
@@ -17,8 +21,7 @@ export default class UserInfo extends Component {
                   consider supporting what I do.
                 </strong>
               </p>
-     <div className="flex-avatar">
-              <img className="avatar" src={risky} alt="Risky Muhamad" />
+     
             </div>
             </div>
           </div>
