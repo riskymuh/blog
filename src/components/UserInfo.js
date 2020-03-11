@@ -10,17 +10,19 @@ export default class UserInfo extends Component {
               
               <div className="flex-avatar">
            <center>
-           <img className="avatar" src={risky} style="float: left;" />Terima kasih telah membaca artikel saya Semoga dapat bermanfaat<br />
-
-//              <img className="avatar" src={risky} alt="Risky Muhamad" />
+              <img className="avatar" src={risky} alt="Risky Muhamad" />
           </center>
-//            <div>
-//              <p>
-//               Terima kasih telah membaca artikel saya Semoga dapat bermanfaat 
-//        
-//              </p>
-//     
-//            </div>
+            <div>
+              <p align=”center”>
+             
+               Terima kasih telah membaca di situs saya, semoga dapat memberikan manfaat.
+              </p>
+               <p align=”center”>
+             
+               ~Risky Muhamad~
+              </p>
+     
+            </div>
             </div>
           </div>
         </div>
