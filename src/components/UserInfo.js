@@ -15,7 +15,7 @@ export default class UserInfo extends Component {
             <div>
               <center>
               <p>
-                  Terima kasih telah membaca di situs saya, semoga dapat memberikan manfaat.
+                  Terima kasih telah berkunjung dan membaca di situs saya, semoga dapat memberikan manfaat.
               </p>
               <p>
                   ~Risky Muhamad~
