@@ -4,6 +4,8 @@ slug: me
 template: page
 ---
 
+![](../images/ris.png)
+
 Nama saya adalah Risky muhamad. Saya biasa dipanggil Iki oleh keluarga saya dan Risky oleh teman-teman saya. Saya lahir di Kota Bekasi pada tanggal 02 Juni 2000. Saya adalah anak ke 2 dari 2 bersaudara.
 
 Saya dan keluarga saya tinggal di Kota Bekasi, tepatnya di wilayah yang biasa disebut Kranggan. Saya mulai memasuki dunia pendidikan pada tahun 2006, di usia saya yang ke 6 tahun.
