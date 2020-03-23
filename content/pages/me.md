@@ -1,5 +1,5 @@
 ---
-title: About me
+title: About
 slug: me
 template: page
 ---
