@@ -28,6 +28,10 @@ const config = {
       link: '/blog/',
     },
     {
+      name: 'Portofolio',
+      link: '/portofolio/',
+    },
+    {
       name: 'Contact',
       link: '/contact/',
     },
